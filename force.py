@@ -1,8 +1,9 @@
+2
 print("Newtons's second law of motion!")
 print("-------------------------------------------")
 print("""INSTRUCTION (select 1,2,3 from below for your result!!)
       1. Mass (m)
-      3. Acceleration (a)
+      2. Acceleration (a)
       3. Force (f)""")
 missing_value_choice=input("Enter the option for the missing value: ")
 if missing_value_choice=="1":
