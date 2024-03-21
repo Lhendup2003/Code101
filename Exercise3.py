@@ -1,6 +1,6 @@
-from queue import LifoQueue
-import sys
-patient_list=LifoQueue()
+from queue import Queue
+
+patient_list= Queue()
 current_list= None
 while True:
     print("WELCOME TO CST INFIRMARY AAPPOINTMENT AND REGISTRATION SYSTEM!!")
@@ -31,7 +31,7 @@ while True:
 
     elif opt==4:
         print("Thank you for the Registration!!")
-        sys.exit()
+        break 
 
 
     else:
