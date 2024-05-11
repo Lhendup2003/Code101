@@ -10,3 +10,5 @@ try:
         print_right_triangle(height)
 except ValueError:
     print("Please enter a valid integer for the height.")
+
+    
