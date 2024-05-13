@@ -1,0 +1,12 @@
+for i in range(1, 1999):
+    if i == 7: 
+        print(f"Reached {i}, breaking outer loop")
+        break
+    if i == 3:
+        print(f"Skippping {i} in inner loop")
+        continue
+    print(i)
+    
+
+    
+
