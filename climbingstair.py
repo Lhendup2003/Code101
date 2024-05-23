@@ -17,6 +17,8 @@ class Solution(object):
         # Recursive case: calculate the result for n by summing up results for n-1 and n-2
         memo[n] = self.ways(n - 1, memo) + self.ways(n - 2, memo)
         return memo[n]  # Store the calculated result in memo and return it
-sol = Solution()
-result = sol.climbStairs(5)
-print(result)  # Output will be the number of ways to climb 5 stairs
+if __name__ == "__main__":
+    sol = Solution()
+    n = int(input("Enter the number of stairs: "))
+    result = sol.climbStairs(n)
+    print(f"The number of ways to climb {n} stairs is: {result}")
